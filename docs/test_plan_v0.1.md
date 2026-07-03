@@ -57,7 +57,7 @@
     2. Gửi chỉ số vượt biên quy định của 12 loài muỗi: `"FLAG:15"`.
 * **Kết quả kỳ vọng:**
     * Firmware ESP32 phải bắt được lỗi (Error handling), log ra màn hình cảnh báo dữ liệu lỗi.
-    * Hệ thống giữ nguyên trạng thái an toàn cũ, tuyệt đối không crash hoặc đứng chương trình nhúng.
+    * Hệ thống giữ nguyên trạng thái an toàn cũ, tuyệt đối không crash hoặc đứng chương trình nhúng 
 
 ---
 
