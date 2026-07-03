@@ -51,7 +51,7 @@ Hệ thống điều khiển được thiết kế theo kiến trúc **Embedded 
 ```text
 LoadingSystem_Module3/
 ├── .gitignore               # Cấu hình bỏ qua cache Python, build target của Rust 
-├── README.md                # Tài liệu tổng quan dự án (File này)
+├── README.md                # Tài liệu tổng quan dự án 
 ├── docs/                    # Tài liệu đặc tả kỹ thuật và QA
 │   ├── requirement_v1.1.md  # Tài liệu yêu cầu kỹ thuật cập nhật sang hệ Embedded
 │   └── test_plan_v0.1.md    # Kịch bản kiểm thử (Unit, Integration, E2E) của QA
@@ -130,4 +130,3 @@ Hiện tại hệ thống đang ở **Version 0.1 (Thử nghiệm v0.1)** với 
 * **Quí (QA/Tester & DevOps Lead):** Quản lý Git, lập kịch bản kiểm thử, tổ chức daily standup và review code.
 
 ```
----
