@@ -18,17 +18,29 @@ Repository này chứa toàn bộ mã nguồn, tài liệu kỹ thuật và kị
 Hệ thống điều khiển được thiết kế theo kiến trúc **Embedded nhúng thuần (Không dùng PLC)** để tối ưu chi phí và tăng tốc độ xử lý thời gian thực:
 
 [ TẦNG 1: THỊ GIÁC (AI VISION) ]
+
 └── Camera Công Nghiệp 4K (HIGH CLOUD) -> Video Stream (UVC 1080p@30fps)
+
 └── Jetson Nano / Raspberry Pi 5 -> Xử lý mô hình AI (ONNX/TensorRT)
+
 │
+
 ▼ Giao tiếp: UART / USB Serial / UDP Wifi
+
 [ TẦNG 2: ĐIỀU KHIỂN TRUNG TÂM (EMBEDDED CONTROL) ]
+
 └── Vi điều khiển (STM32 / ESP32) lập trình bằng ngôn ngữ RUST (ưu tiên) hoặc C
+
 └── Chức năng: Nhận tọa độ/nhãn, tính toán toán học, phát xung điều khiển 
+
 │
+
 ▼ Tín hiệu: Pulse/Direction (Max 4 Mpps Line Driver) & Digital I/O
+
 [ TẦNG 3: CƠ CẤU CHẤP HÀNH (ACTUATORS) ]
+
 └── Servo Driver CSD7_02BX1 (RS Automation, 200W)
+
 └── Servo Motor + Đĩa xoay chứa lọ + Băng tải phân luồng
 
 
