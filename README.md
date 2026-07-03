@@ -128,5 +128,4 @@ Hiện tại hệ thống đang ở **Version 0.1 (Thử nghiệm v0.1)** với 
 
 
 * **Quí (QA/Tester & DevOps Lead):** Quản lý Git, lập kịch bản kiểm thử, tổ chức daily standup và review code.
-
-```
+ 
